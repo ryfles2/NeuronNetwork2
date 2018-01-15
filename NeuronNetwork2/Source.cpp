@@ -164,9 +164,11 @@ int main()
 	SigmoidalnaBias2w.open("SigmoidalnaBias2w.ppm");
 	SigmoidalnaBias2w << "P3\n400 400\n255\n";
 
+
 	double x[] = { -2.0, -2.0 };
 	double xBias[] = { -2.0,-2.0 };
 	double neuron2w[] = { 0.0,0.0 };
+	//wagi z biasem i wagi dla 2 warstwy
 	double xw[] = { 0.0,0.0,0.0 };
 	double xw2[] = { 0.0,0.0,0.0 };
 	double x2ww[] = { 0.0,0.0,0.0 };
